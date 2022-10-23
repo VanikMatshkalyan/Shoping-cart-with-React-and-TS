@@ -14,8 +14,8 @@ const {openCart, cartQuantity } = useShoppingCart()
           <Nav.Link to="/store" as={NavLink}>
             Store
           </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
-            About
+          <Nav.Link to="/contact" as={NavLink}>
+            Contact
           </Nav.Link>
         </Nav>
        {cartQuantity > 0 && (<Button
